@@ -8,4 +8,5 @@ import "github.com/kameikay/graphql-example/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
